@@ -1,3 +1,29 @@
+body {
+  background-color: teal;
+}
+
 .form-container.AddToCartForm {
   --payment-terms-background-color: #ffffff;
+}
+
+.tpmBanner img {
+  width: 100%;
+}
+
+.slick-list {
+  height: 60vh;
+  background-color: blue;
+}
+.slick-list img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 60vh;
+}
+
+.tinyGlow {
+  text-align: center;
+}
+
+img.center {
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */

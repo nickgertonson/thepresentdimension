@@ -1,7 +1,42 @@
 body{
 // font-size: 300% !important;
+background-color: teal;
 }
 
 .form-container.AddToCartForm {
     --payment-terms-background-color: #ffffff;
   }
+
+
+
+  .tpmBanner {
+    img{
+        width: 100%;
+    }
+  }
+
+
+//   #shopify-section-1480936360152{
+//     background-color: red;
+//     div{
+//         margin: auto;
+//         background-color: blue;
+//     }
+//   }
+
+
+.slick-list{
+    height: 60vh;
+    background-color: blue;
+    img{
+        object-fit: cover;
+        height: 60vh;
+    }
+}
+
+.tinyGlow{
+    text-align: center;
+}
+img.center{
+    margin: auto;
+}
