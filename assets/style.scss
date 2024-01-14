@@ -1,42 +1,146 @@
-body{
-// font-size: 300% !important;
-background-color: teal;
+body {
 }
 
 .form-container.AddToCartForm {
     --payment-terms-background-color: #ffffff;
-  }
+}
 
-
-
-  .tpmBanner {
-    img{
+.tpmBanner {
+    img {
         width: 100%;
     }
-  }
+}
 
-
-//   #shopify-section-1480936360152{
-//     background-color: red;
-//     div{
-//         margin: auto;
-//         background-color: blue;
-//     }
-//   }
-
-
-.slick-list{
+.slick-list {
     height: 60vh;
     background-color: blue;
-    img{
+    img {
         object-fit: cover;
         height: 60vh;
     }
 }
 
-.tinyGlow{
+.tinyGlow {
     text-align: center;
 }
-img.center{
+img.center {
     margin: auto;
+}
+
+.link-container {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+@font-face {
+    font-family: "ArtifexCF-Regular";
+    src: url("/fonts/ArtifexCF-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ArtifexCF-RegularItalic";
+    src: url("/fonts/ArtifexCF-RegularItalic.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ArtifexCF-ExtraBold";
+    src: url("/fonts/ArtifexCF-ExtraBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "ArtifexCF-Heavy";
+    src: url("/fonts/ArtifexCF-Heavy.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ArtifexCF-ExtraLight";
+    src: url("./fonts/ArtifexCF-ExtraLight.woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+// @font-face {
+//     font-family: "IntegralCF-Regular";
+//     src: url(" /cdn/shop/t/10/assets/IntegralCF-Regular.woff?v=131294448930146841131624554811 ");
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: "IntegralCF-RegularOblique";
+//     src: url(" /cdn/shop/t/10/assets/IntegralCF-RegularOblique.woff?v=36547832180735467181629215934 ");
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: "IntegralCF-Medium";
+//     src: url(" /cdn/shop/t/10/assets/IntegralCF-Medium.woff?v=116453833690443665231624970909 ");
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: "IntegralCF-Heavy";
+//     src: url(" /cdn/shop/t/10/assets/IntegralCF-Heavy.woff?v=107722034963211256781627572509 ");
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: "IntegralCF-HeavyOblique";
+//     src: url(" /cdn/shop/t/10/assets/IntegralCF-HeavyOblique.woff?v=131058177530269781651627572518 ");
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+.ArtifexRegular {
+    font-family: "ArtifexCF-Regular" !important;
+}
+
+.ArtifexRegularWhite {
+    font-family: "ArtifexRegular";
+    color: #fff !important;
+}
+
+.White {
+    color: #fff !important;
+}
+
+.ArtifexRegularNoCaps {
+    font-family: "ArtifexCF-Regular" !important;
+    text-transform: none !important;
+}
+.ArtifexHeavy {
+    font-family: "ArtifexCF-Heavy" !important;
+}
+.ArtifexHeavySpaced {
+    font-family: "ArtifexCF-Heavy";
+    letter-spacing: 2px;
+}
+
+.ArtifexLight {
+    font-family: "ArtifexCF-ExtraLight";
+}
+
+.ArtifexItalic {
+    font-family: "ArtifexCF-RegularItalic";
+}
+
+.IntegralRegular {
+    font-family: "IntegralCF-Regular";
+}
+
+.IntegralMedium {
+    font-family: "IntegralCF-Medium";
+}
+
+.IntegralHeavyOb {
+    font-family: "IntegralCF-HeavyOblique";
 }

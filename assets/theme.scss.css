@@ -4799,74 +4799,7 @@ button[data-shopify-xr] {
   .drawer-nav__search .search-bar {
     margin-bottom: 0; }
 
-@font-face {
-  font-family: 'ArtifexCF-Regular';
-  src: url(" /cdn/shop/t/10/assets/ArtifexCF-Regular.woff?v=55864844423497102371624555961 ");
-  font-weight: normal;
-  font-style: normal; }
 
-@font-face {
-  font-family: 'ArtifexCF-RegularItalic';
-  src: url(" /cdn/shop/t/10/assets/ArtifexCF-RegularItalic.woff?v=178487269569822070391629653685 ");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'ArtifexCF-Heavy';
-  src: url(" /cdn/shop/t/10/assets/ArtifexCF-Heavy.woff?v=99618540517394494751624882711 ");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'IntegralCF-Regular';
-  src: url(" /cdn/shop/t/10/assets/IntegralCF-Regular.woff?v=131294448930146841131624554811 ");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'IntegralCF-RegularOblique';
-  src: url(" /cdn/shop/t/10/assets/IntegralCF-RegularOblique.woff?v=36547832180735467181629215934 ");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'IntegralCF-Medium';
-  src: url(" /cdn/shop/t/10/assets/IntegralCF-Medium.woff?v=116453833690443665231624970909 ");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'IntegralCF-Heavy';
-  src: url(" /cdn/shop/t/10/assets/IntegralCF-Heavy.woff?v=107722034963211256781627572509 ");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'IntegralCF-HeavyOblique';
-  src: url(" /cdn/shop/t/10/assets/IntegralCF-HeavyOblique.woff?v=131058177530269781651627572518 ");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'ArtifexCF-ExtraLight';
-  src: url(" /cdn/shop/t/10/assets/ArtifexCF-ExtraLight.woff?v=164307597675703909811627826708 ");
-  font-weight: normal;
-  font-style: normal; }
-
-.ArtifexLight {
-  font-family: "ArtifexCF-ExtraLight"; }
-
-.ArtifexItalic {
-  font-family: 'ArtifexCF-RegularItalic'; }
-
-.IntegralRegular {
-  font-family: "IntegralCF-Regular"; }
-
-.IntegralMedium {
-  font-family: "IntegralCF-Medium"; }
-
-.IntegralHeavyOb {
-  font-family: "IntegralCF-HeavyOblique"; }
 
 .drawer-nav__item {
   position: relative;
@@ -7973,17 +7906,7 @@ section.collection-page .collection__title {
 h2, .h2 {
   font-family: "IntegralCF-Medium" !important; }
 
-@font-face {
-  font-family: "ArtifexCF-Regular.woff";
-  src: url("ArtifexCF-Regular.woff") format("woff"), url("ArtifexCF-Regular.woff") format("woff"); }
 
-@font-face {
-  font-family: "ArtifexCF-ExtraBold.woff";
-  src: url("ArtifexCF-ExtraBold") format("woff"), url("ArtifexCF-ExtraBold") format("woff"); }
-
-@font-face {
-  font-family: "ArtifexCF-Heavy.woff";
-  src: url("ArtifexCF-Heavy") format("woff"), url("ArtifexCF-Heavy") format("woff"); }
 
 .center-menu {
   width: 100%;
