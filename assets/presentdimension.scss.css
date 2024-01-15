@@ -579,7 +579,7 @@ section.section-product .standard-single {
         transition: opacity 1s ease-in-out 0.4s;
     }
     #tpd-product-info > div {
-        opacity: 0;
+        /* opacity: 0; */
     }
     #tpd-product-info h1 {
         border: none !important;
