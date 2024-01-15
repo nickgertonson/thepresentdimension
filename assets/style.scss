@@ -236,3 +236,9 @@ ul.footer-nav {
         display: none;
     }
 }
+
+ul.drawer-nav{
+    li:nth-child(3) {
+        display: none;
+    }
+}

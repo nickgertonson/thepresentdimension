@@ -216,4 +216,8 @@ ul.site-nav li:nth-child(3) {
 ul.footer-nav li:nth-child(4),
 ul.footer-nav li:nth-child(8) {
   display: none;
+}
+
+ul.drawer-nav li:nth-child(3) {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
