@@ -49,8 +49,7 @@
 <body id="the-present-dimension" class="template-index  ">
 
   <!-- Sidebar Menu NRG -->
-  <div id="shopify-section-sidebar-menu" class="shopify-section sidebar-menu">
-    <div id="NavDrawer" class="drawer drawer--left" data-section-type="sidebar-menu" data-section-id="sidebar-menu">
+  <div id="navigator" class="sshopify-section sidebar-menu">
       <div class="drawer__container">
         <div class="drawer__header">
           <button type="button" class="js-drawer-close">
@@ -183,7 +182,7 @@
 
       </div><!-- drawer nav container -->
       <!-- //drawer-nav -->
-    </div>
+    
 
   </div>
 
@@ -272,7 +271,7 @@
 
                     <!-- /snippets/header_burger-menu.liquid -->
                     <div class="site-header__burger-menu">
-                      <button type="button" class="js-drawer-open-left" aria-controls="NavDrawer" aria-expanded="false"
+                      <button type="button" class="menu-icon js-drawer-open-left" aria-controls="NavDrawer" aria-expanded="false"
                         tabindex="1">
                         <div class="icon-burger">
                           <div class="row"></div>
@@ -750,47 +749,47 @@
                 <ul class="footer-nav ArtifexRegular" id="AccessibleNav">
 
                   <li>
-                    <a href="https://www.thepresentdimension.com/pages/about"
+                    <a href="/about.html"
                       class="site-nav__link ArtifexRegular">About</a>
                   </li>
 
                   <li>
-                    <a href="https://www.thepresentdimension.com/pages/philosophy"
+                    <a href="/philosophy.html"
                       class="site-nav__link ArtifexRegular">Philosophy</a>
                   </li>
 
                   <li>
-                    <a href="https://www.thepresentdimension.com/pages/writing"
+                    <a href="/writing.html"
                       class="site-nav__link ArtifexRegular">Writing</a>
                   </li>
 
                   <li>
-                    <a href="https://www.thepresentdimension.com/products/presence-is-power-t-shirt"
+                    <a href="/apparel.html"
                       class="site-nav__link ArtifexRegular">Apparel</a>
                   </li>
 
                   <li>
-                    <a href="https://www.thepresentdimension.com/pages/podcasts"
+                    <a href="/podcasts.html"
                       class="site-nav__link ArtifexRegular">Podcasts</a>
                   </li>
 
                   <li>
-                    <a href="https://www.thepresentdimension.com/pages/agency"
+                    <a href="/agency.html"
                       class="site-nav__link ArtifexRegular">Agency</a>
                   </li>
 
                   <li>
-                    <a href="https://www.thepresentdimension.com/pages/connect"
+                    <a href="/connect.html"
                       class="site-nav__link ArtifexRegular">Contact</a>
                   </li>
 
                   <li>
-                    <a href="https://www.thepresentdimension.com/pages/policies"
+                    <a href="/shipping.html"
                       class="site-nav__link ArtifexRegular">Returns</a>
                   </li>
 
                   <li>
-                    <a href="https://www.thepresentdimension.com/pages/support"
+                    <a href="/support.html"
                       class="site-nav__link ArtifexRegular">Support</a>
                   </li>
 
@@ -910,9 +909,6 @@
 
   <!-- //site-footer -->
 
-  <div id="shopify-section-popup" class="shopify-section">
-
-  </div>
 
   <script src="./assets/theme.min.js" type="text/javascript"></script>
 
@@ -942,6 +938,42 @@
       });
     });
   </script>
+
+<script>
+  $(document).ready(function () {
+
+  $('.menu-icon').click(function () {
+      if ($('#navigator').css("left") == "-300px") {
+          $('#navigator').animate({left: '0px'}, 350);
+      } 
+      else  {
+          $('#navigator').animate({left: '-300px'}, 350); 
+          $(this).animate({left: '0px'}, 350);
+      } 
+  });
+
+  $('.menu-icon').click(function () {
+            $(this).toggleClass("on"); });
+  });
+
+  $('.js-drawer-close').click(function () {
+      if ($('#navigator').css("left") == "0px") {
+          $('#navigator').animate({left: '-300px'}, 350);
+          $('.menu-icon').toggleClass("on");
+      } 
+  });
+
+
+  $('#PageContainer').click(function () {
+      if ($('#navigator').css("left") == "0px") {
+          $('#navigator').animate({left: '-300px'}, 350);
+          $('.menu-icon').toggleClass("on");
+      } 
+  });
+
+
+</script>
+
 
 </body>
 

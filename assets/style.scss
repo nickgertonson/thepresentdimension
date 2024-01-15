@@ -144,3 +144,56 @@ img.center {
 .IntegralHeavyOb {
     font-family: "IntegralCF-HeavyOblique";
 }
+
+
+
+
+#navigator{
+	width: 300px;
+	height:100%;
+	position: fixed;
+	top: 0;
+	left: -300px;
+	float: left;
+	z-index: 10;
+    box-shadow: 1px 0 10px 5px #0000001a;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    padding: 0 15px 15px;
+    background-color: white;
+}
+
+.drawer__container{
+    .js-drawer-close{
+        padding-bottom: 20px;
+        .icon-close{
+            font-size: 1.5em;
+        }
+    }
+    .site-header__logo{
+        a{
+            font-family: "ArtifexCF-Regular";
+            color: #69b0be;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+    }
+
+    .drawer-nav__item{
+        a:hover{
+            opacity: 0.7;
+        }
+    }
+
+    .drawer-social{
+        padding: 60px 20px 20px;
+        .social-list{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+}
+
