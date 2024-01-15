@@ -484,7 +484,7 @@
             </div>
             <noscript>
               <img
-                src="//www.thepresentdimension.com/cdn/shop/files/TPM_sharpieBanner-blue-transp_large.png?v=1627662550"
+                src="./assets/TPM_sharpieBanner-blue-transp_300x.png"
                 alt="" class="feature-image__img-content">
             </noscript>
 
@@ -620,7 +620,7 @@
 
                   <h3 class="standard-single ArtifexRegularNoCaps">
 
-                    <a href="https://www.thepresentdimension.com/products/presence-is-power-t-shirt">Presence is
+                    <a>Presence is
                       Power.</a>
 
                   </h3>
@@ -968,8 +968,14 @@
       } 
   });
 
+  $("button.arrow").click(function() {
+  $([document.documentElement, document.body]).animate({
+      scrollTop: $("#shopify-section-1627575606f920bd17").offset().top
+  }, 1000);
+});
 
 </script>
+
 
 
 </body>

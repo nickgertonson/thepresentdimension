@@ -8,7 +8,6 @@
 
 .slick-list {
   height: 60vh;
-  background-color: blue;
 }
 .slick-list img {
   -o-object-fit: cover;
@@ -52,7 +51,37 @@ img.center {
 }
 @font-face {
   font-family: "ArtifexCF-ExtraLight";
-  src: url("./fonts/ArtifexCF-ExtraLight.woff");
+  src: url("/fonts/ArtifexCF-ExtraLight.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IntegralCF-Regular";
+  src: url("/fonts/IntegralCF-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IntegralCF-RegularOblique";
+  src: url("/fonts/IntegralCF-RegularOblique.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IntegralCF-Medium";
+  src: url("/fonts/IntegralCF-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IntegralCF-Heavy";
+  src: url("/fonts/IntegralCF-Heavy.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IntegralCF-HeavyOblique";
+  src: url("/fonts/IntegralCF-HeavyOblique.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -92,7 +121,7 @@ img.center {
 }
 
 .IntegralRegular {
-  font-family: "IntegralCF-Regular";
+  font-family: "ArtifexCF-Regular";
 }
 
 .IntegralMedium {
@@ -101,6 +130,41 @@ img.center {
 
 .IntegralHeavyOb {
   font-family: "IntegralCF-HeavyOblique";
+}
+
+.IntegralRegular {
+  font-family: IntegralCF-Regular;
+}
+
+.IntegralRegularSpaced {
+  font-family: IntegralCF-Regular;
+  letter-spacing: 2px;
+}
+
+.IntegralRegularHalfSpaced {
+  font-family: "IntegralCF-Regular" !important;
+  letter-spacing: 1px;
+}
+
+.IntegralCopyright {
+  font-family: IntegralCF-Regular;
+  letter-spacing: 2px;
+  font-size: 0.8em;
+}
+
+.IntegralRegularSpacedNoWrap {
+  font-family: IntegralCF-Regular;
+  letter-spacing: 2px;
+  white-space: nowrap;
+}
+
+.IntegralMedium {
+  font-family: IntegralCF-Medium;
+}
+
+.IntegralRegularSpaced {
+  letter-spacing: 0.1em !important;
+  font-family: IntegralCF-Regular !important;
 }
 
 #navigator {
@@ -126,7 +190,10 @@ img.center {
   font-size: 1.5em;
 }
 .drawer__container .site-header__logo a {
-  font-family: "ArtifexCF-Regular";
+  font-size: 28px;
+  font-family: "IntegralCF-Medium";
+  letter-spacing: 2px;
+  text-align: center;
   color: #69b0be;
   display: inline-block;
   vertical-align: middle;
@@ -140,4 +207,13 @@ img.center {
 .drawer__container .drawer-social .social-list {
   display: flex;
   justify-content: space-between;
+}
+
+ul.site-nav li:nth-child(3) {
+  display: none;
+}
+
+ul.footer-nav li:nth-child(4),
+ul.footer-nav li:nth-child(8) {
+  display: none;
 }/*# sourceMappingURL=style.css.map */

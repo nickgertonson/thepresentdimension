@@ -13,7 +13,6 @@ body {
 
 .slick-list {
     height: 60vh;
-    background-color: blue;
     img {
         object-fit: cover;
         height: 60vh;
@@ -59,46 +58,45 @@ img.center {
 
 @font-face {
     font-family: "ArtifexCF-ExtraLight";
-    src: url("./fonts/ArtifexCF-ExtraLight.woff");
+    src: url("/fonts/ArtifexCF-ExtraLight.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
+@font-face {
+    font-family: "IntegralCF-Regular";
+    src: url("/fonts/IntegralCF-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
 
-// @font-face {
-//     font-family: "IntegralCF-Regular";
-//     src: url(" /cdn/shop/t/10/assets/IntegralCF-Regular.woff?v=131294448930146841131624554811 ");
-//     font-weight: normal;
-//     font-style: normal;
-// }
+@font-face {
+    font-family: "IntegralCF-RegularOblique";
+    src: url("/fonts/IntegralCF-RegularOblique.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
 
-// @font-face {
-//     font-family: "IntegralCF-RegularOblique";
-//     src: url(" /cdn/shop/t/10/assets/IntegralCF-RegularOblique.woff?v=36547832180735467181629215934 ");
-//     font-weight: normal;
-//     font-style: normal;
-// }
+@font-face {
+    font-family: "IntegralCF-Medium";
+    src: url("/fonts/IntegralCF-Medium.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
 
-// @font-face {
-//     font-family: "IntegralCF-Medium";
-//     src: url(" /cdn/shop/t/10/assets/IntegralCF-Medium.woff?v=116453833690443665231624970909 ");
-//     font-weight: normal;
-//     font-style: normal;
-// }
+@font-face {
+    font-family: "IntegralCF-Heavy";
+    src: url("/fonts/IntegralCF-Heavy.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
 
-// @font-face {
-//     font-family: "IntegralCF-Heavy";
-//     src: url(" /cdn/shop/t/10/assets/IntegralCF-Heavy.woff?v=107722034963211256781627572509 ");
-//     font-weight: normal;
-//     font-style: normal;
-// }
-
-// @font-face {
-//     font-family: "IntegralCF-HeavyOblique";
-//     src: url(" /cdn/shop/t/10/assets/IntegralCF-HeavyOblique.woff?v=131058177530269781651627572518 ");
-//     font-weight: normal;
-//     font-style: normal;
-// }
+@font-face {
+    font-family: "IntegralCF-HeavyOblique";
+    src: url("/fonts/IntegralCF-HeavyOblique.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
 
 .ArtifexRegular {
     font-family: "ArtifexCF-Regular" !important;
@@ -134,7 +132,7 @@ img.center {
 }
 
 .IntegralRegular {
-    font-family: "IntegralCF-Regular";
+    font-family: "ArtifexCF-Regular";
 }
 
 .IntegralMedium {
@@ -145,17 +143,43 @@ img.center {
     font-family: "IntegralCF-HeavyOblique";
 }
 
+.IntegralRegular {
+    font-family: IntegralCF-Regular;
+}
+.IntegralRegularSpaced {
+    font-family: IntegralCF-Regular;
+    letter-spacing: 2px;
+}
+.IntegralRegularHalfSpaced {
+    font-family: "IntegralCF-Regular" !important;
+    letter-spacing: 1px;
+}
+.IntegralCopyright {
+    font-family: IntegralCF-Regular;
+    letter-spacing: 2px;
+    font-size: 0.8em;
+}
+.IntegralRegularSpacedNoWrap {
+    font-family: IntegralCF-Regular;
+    letter-spacing: 2px;
+    white-space: nowrap;
+}
+.IntegralMedium {
+    font-family: IntegralCF-Medium;
+}
+.IntegralRegularSpaced {
+    letter-spacing: 0.1em !important;
+    font-family: IntegralCF-Regular !important;
+}
 
-
-
-#navigator{
-	width: 300px;
-	height:100%;
-	position: fixed;
-	top: 0;
-	left: -300px;
-	float: left;
-	z-index: 10;
+#navigator {
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -300px;
+    float: left;
+    z-index: 10;
     box-shadow: 1px 0 10px 5px #0000001a;
     overflow-y: auto;
     overflow-x: hidden;
@@ -164,36 +188,51 @@ img.center {
     background-color: white;
 }
 
-.drawer__container{
-    .js-drawer-close{
+.drawer__container {
+    .js-drawer-close {
         padding-bottom: 20px;
-        .icon-close{
+        .icon-close {
             font-size: 1.5em;
         }
     }
-    .site-header__logo{
-        a{
-            font-family: "ArtifexCF-Regular";
+    .site-header__logo {
+        a {
+            font-size: 28px;
+            font-family: "IntegralCF-Medium";
+            letter-spacing: 2px;
+            text-align: center;
             color: #69b0be;
             display: inline-block;
             vertical-align: middle;
         }
-
     }
 
-    .drawer-nav__item{
-        a:hover{
+    .drawer-nav__item {
+        a:hover {
             opacity: 0.7;
         }
     }
 
-    .drawer-social{
+    .drawer-social {
         padding: 60px 20px 20px;
-        .social-list{
+        .social-list {
             display: flex;
             justify-content: space-between;
         }
     }
-
 }
 
+//Hide Apparel Link
+
+ul.site-nav {
+    li:nth-child(3) {
+        display: none;
+    }
+}
+
+ul.footer-nav {
+    li:nth-child(4),
+    li:nth-child(8) {
+        display: none;
+    }
+}

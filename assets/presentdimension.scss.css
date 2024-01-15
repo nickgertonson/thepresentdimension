@@ -102,37 +102,11 @@
     letter-spacing: 0.4em !important;
     font-family: IntegralCF-Regular !important;
 }
-.IntegralRegular {
-    font-family: IntegralCF-Regular;
-}
-.IntegralRegularSpaced {
-    font-family: IntegralCF-Regular;
-    letter-spacing: 2px;
-}
-.IntegralRegularHalfSpaced {
-    font-family: IntegralCF-Regular;
-    letter-spacing: 1px;
-}
-.IntegralCopyright {
-    font-family: IntegralCF-Regular;
-    letter-spacing: 2px;
-    font-size: 0.8em;
-}
-.IntegralRegularSpacedNoWrap {
-    font-family: IntegralCF-Regular;
-    letter-spacing: 2px;
-    white-space: nowrap;
-}
+
 .noWrap {
     white-space: nowrap;
 }
-.IntegralMedium {
-    font-family: IntegralCF-Medium;
-}
-.IntegralRegularSpaced {
-    letter-spacing: 0.1em !important;
-    font-family: IntegralCF-Regular !important;
-}
+
 .joeFooter {
     background-color: #fff;
 }
@@ -1051,7 +1025,7 @@ br.responsive {
 }
 .tpmCollection .tpmRow:before {
     content: "";
-    background-image: url(/cdn/shop/files/Glowing-Button_DiffColors_2.gif?v=1629254676);
+    background-image: url(/assets/Glowing-Button_DiffColors_2.gif);
     background-size: contain;
     background-position: right center;
     background-repeat: no-repeat;
@@ -1470,7 +1444,7 @@ input.focus-visible {
     padding-bottom: 15px !important;
 }
 .section3 {
-    background-image: url(/cdn/shop/files/AFX-BG_About-BG_flipped.gif?v=1629146245);
+    background-image: url(/assets/AFX-BG_About-BG_flipped.gif);
     background-size: cover;
 }
 .letter {
